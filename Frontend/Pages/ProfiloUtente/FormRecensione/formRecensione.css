@@ -1,0 +1,63 @@
+#posizione-chiudi-button-recensione{
+    background-color: rgb(0, 0, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#chiudi-button-recensione{
+    background-color: rgba(240, 0, 0, 0.774);
+    color: black;
+    width: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+#posizione-scritta{
+    margin-left: 18.8vw;
+    color: white;
+}
+
+
+#card-recensione{
+    border-radius: 1.5vw;
+}
+
+
+#descrizione-recensione{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+#recensione-dentro{
+    display: flex;
+    justify-items: center;
+}
+
+#corpoRecensioneInputForm{
+    margin-top: 20px;
+}
+
+
+#inserimoento-cornice-recensione{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+#padding-cornice{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+

@@ -1,0 +1,73 @@
+.chat-container {
+    width: 50vw;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 3vw;
+}
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: white;
+}
+.chat-msg {
+    margin: 5px 0;
+    padding: 6px 10px;
+    background: #e3f2fd;
+    border-radius: 5px;
+    margin-bottom: 1vw;
+    width: 20vw;
+}
+.chat-form {
+    display: flex;
+    gap: 10px;
+}
+.chat-form input {
+    flex: 1;
+    padding: 8px;
+}
+.chat-form button {
+    padding: 8px 16px;
+}
+
+
+#messaggio-destinatario{
+    background-color: rgb(187, 187, 255);
+}
+
+
+#messaggio-mittente{
+    background-color: rgb(44, 41, 189);
+    margin-left: auto;
+}
+
+#TuoVecchiomessaggio{
+    background-color: rgb(44, 41, 189);
+    margin-left: auto;
+}
+
+
+
+.chat-msg p {
+  white-space: pre-wrap;   /* Rispetta gli \n ed effettua il wrap */
+  word-wrap: break-word;   /* Rompe le parole lunghe se necessario */
+  margin: 0;               /* Elimina margine predefinito */
+}
+
+
+
+#posizione-boxmsg{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#bottone-inviochat{
+    background-color: rgb(131, 255, 131);
+    width: 20vw;
+}

@@ -1,0 +1,50 @@
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button{
+    width: 22vw;
+    transition: color 0.3s, text-shadow 0.3s;
+    margin-top: 2vw;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+}
+
+
+#cardBox{
+    border-radius: 2%;
+}
+
+
+#distanza{
+    margin-top: 3vw;
+}
+
+
+.form-container{
+    width: 100%;
+    max-width: 450px;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.form-container:hover {
+     transform: translateY(-5px);
+ }
+
+
+
+
+
+
+
+
+

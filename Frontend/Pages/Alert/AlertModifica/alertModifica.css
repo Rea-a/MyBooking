@@ -1,0 +1,128 @@
+
+
+#box-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    width: 25vw;
+}
+
+#card-descr{
+    background-color: rgb(255, 255, 255);
+}
+
+#modifica-corso{
+    color: black;
+    margin-bottom: 2vw;
+}
+
+
+#modifica-elimina{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    align-items: center;
+}
+
+#gruppo-eliminaincorso{
+    display: flex;
+    gap: 0.8vw;
+    justify-items: center;
+    margin-top: 1vw;
+}
+
+#elimina-button{
+    background-color: rgb(243, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#cancella-button{
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+#modifica-button{
+    background-color: black;
+}
+
+#modifica-pulsante{
+    background-color: black;
+    min-width: 150px;
+
+}
+
+#posizione-chiudi-button{
+    display: flex;
+    justify-items: left;
+    align-items: left;
+    margin-right: 6px;
+}
+
+#chiudi-button{
+    margin-left: 92%;
+    margin-top: 0.5vw;
+    background-color: rgba(255, 0, 0, 0.521);
+    color: black;
+}
+
+
+
+#img-modifica{
+    height: auto;
+    max-width: 580px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 0.5vw;
+    margin-left: 2vw;
+}
+
+
+
+#prenotazioni-modifica{
+    width: 10vw;
+}
+
+
+#recensioni-modifica{
+    width: 10vw;
+}
+
+
+
+#container-hotel{
+    display: flex;
+    flex-direction: row;   /*mette gli elementi in riga*/
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+#descrizione-apertura{
+    flex-grow: 1;              /* occupa tutto lo spazio restante */
+    max-width: 50%;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    text-align: left;    /*allinea il testo a sinistra*/
+
+
+    word-break: break-word;      /* forza l'andare a capo */
+    overflow-wrap: break-word;   /* supporta parole lunghe */
+    white-space: normal;         /* permette il ritorno a capo */
+}
+
+
+
+
+#box-modifica-corso{
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

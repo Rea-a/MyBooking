@@ -1,0 +1,21 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+
+html, body, #root{
+  height: 1%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+

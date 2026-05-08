@@ -1,0 +1,54 @@
+#styleDiv{
+    animation: fadeIn 0.4s ease;
+}
+
+
+
+#errore-alert-registrazione{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(170, 0, 0);
+    margin-top: 0.7vw;
+}
+
+
+#iconAlert{
+    font-size: 40px;
+    color: rgb(170, 0, 0);
+}
+
+
+#posizionamento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+
+#boxRegistrazioneAlert{
+    margin-bottom: "5rem";
+    margin-bottom: 20vw;
+}
+
+
+#button-alert-error{
+  margin-bottom: 2vw;
+}
+
+#bodyErrore {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

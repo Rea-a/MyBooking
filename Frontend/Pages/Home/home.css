@@ -1,0 +1,46 @@
+.home {
+    height: 100%;
+    width: 100%;
+    background-color: radial-gradient(circle at center, #fffb00 0%, #f4ffb0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vw;
+}
+
+
+
+.home-content {
+    z-index: 1;
+    text-align: center;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+#benvenuto {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#sottotitolo {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+#bottone-home{
+    width: 500px;
+    background-color: #2564eb00;
+    color: white; 
+    font-weight: bold;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+
+#bottone-home:hover{
+    background-color: white;
+    color: #000000;
+    border: 2px solid rgba(0, 0, 0, 0);
+}

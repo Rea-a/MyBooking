@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#containerListaStruttura {
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#titolo-risultato{
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+
+#alertNessunaStrutture{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+
+#testo-ritorna{
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#button-ritorno-ricerca{
+    background-color: black;
+    color: white;
+    gap: 0.5vw;
+    margin-bottom: 35   vw;
+}
+
+
